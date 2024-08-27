@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quest - Free multipurpose bootstrap html landing page</title>
+
+    <!--CDN Material Icon  -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.9.55/css/materialdesignicons.min.css"
+        integrity="sha512-vIgFb4o1CL8iMGoIF7cYiEVFrel13k/BkTGvs0hGfVnlbV6XjAA0M0oEHdWqGdAVRTDID3vIZPOHmKdrMAUChA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- AwesomeFont  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+
+    <!--Tiny Slider CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.min.css"
+        integrity="sha512-06CZo7raVnbbD3BlY8/hGUoUCuhk8sTdVGV3m3nuh9i2R+UmkLbLRTE/My8TuJ3ALbDulhBObJQWtOUt0mXzNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-navlist" data-bs-offset="20">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top vv">
+        <div class="container">
+            <a class="navbar-brand fw-bolder" href="#">YourName</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse primary-navigation" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto fw-bold">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--START Hero-->
+    <section class="bg-hero bg-white" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-7 col-md-6">
+                    <div class="mt-4">
+                        <h1 class="head-line text-uppercase">do more for less</h1>
+                        <p class="home-caption text-muted lh-lg mt-4">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Dignssimos provident requste uisquam quia vel sint the mollitia the Internet tend to repeat
+                            predefined chunks as necessary, making.</p>
+                        <div class="mt-5">
+                            <a href="#" class="btn btn-primary me-3">Get Started</a>
+                            <a href="#" class="play-button text-center shadow-sm" data-bs-toggle="modal"
+                                data-bs-target="#watchvideomodal"><i class="mdi mdi-play align-middle "></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+            <!-- Modal -->
+            <div class="modal fade bd-example-modal-lg" id="watchvideomodal" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="watchvideomodalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog modal-lg">
+                    <div class="modal-content home-modal">
+                        <div class="modal-header border-0">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <video id="VisaChipCardVideo" class="video-box" controls>
+                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                            <!--Browser does not support <video> tag -->
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <!-- end modal -->
+        </div>
+        <!--end container-->
+    </section>
+    <!--END HOME-->
+
+    <!--start client-->
+    <section id="about" class="bg-client d-flex align-items-center py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="client-heading text-center">
+                        <h2 class="fw-bold display-6 position-relative">Clients Who Trust Us</h2>
+                        <p class="text-muted my-4">Phasellus lacinia velit suscipit, tristique erat in, mollis lectus.
+                            Suspendisse potenti. Nam ornare eu velit sit amet condimentum.</p>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+            <div class="row">
+                <div class="col-12">
+                    <div class="client-slider mt-3">
+                        <div>
+                            <div class="client-logo text-center">
+                                <img src="images/logo-1.svg" alt="logo-1" class="img-fluid">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="client-logo text-center">
+                                <img src="images/logo-2.svg" alt="logo-2" class="img-fluid">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="client-logo text-center">
+                                <img src="images/logo-3.svg" alt="logo-3" class="img-fluid">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="client-logo text-center">
+                                <img src="images/logo-4.svg" alt="logo-4" class="img-fluid">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="client-logo text-center">
+                                <img src="images/logo-5.svg" alt="logo-5" class="img-fluid">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="client-logo text-center">
+                                <img src="images/logo-3.svg" alt="logo-3" class="img-fluid">
+                            </div>
+                        </div>
+                    </div><!--end client-slider-->
+                </div><!--end col-->
+            </div><!--end row-->
+        </div><!--end container-->
+    </section>
+    <!--end client-->
+
+
+
+    <section class="section bg-light">
+        <div class="container-fluid p-lg-0">
+            <div class="row align-items-center g-0">
+                <div class="col-xl-6">
+                    <div class="row justify-content-xl-end g-0">
+                        <div class="col-lg-8">
+                            <div class="about-box p-4 p-lg-5">
+                                <h6 class="text-uppercase small fw-bold text-primary">About us</h6>
+                                <h2 class="display-6 mt-4 fw-bold">We'r dynamic team of <br>talented people of
+                                    innovative <br> & marketing
+                                    expert.
+                                </h2>
+
+                                <div class="d-flex mt-3 pt-4">
+                                    <div class="me-3">
+                                        <i class="mdi mdi-crop text-primary display-5"></i>
+                                    </div>
+                                    <div class="flex-1">
+                                        <h5 class="fw-bold">Best Digital Agency in Asia</h5>
+                                        <p class="text-muted mt-3">On the other hand, we denounce with
+                                            indignation and
+                                            dislike men all this mistaken idea of denncing pleasure
+                                            who are the beguiled and demoralized by the charms of Et harum classe quidem
+                                            rerum
+                                            facilis est et expedita distinctio. we denounce with righteous so
+                                            indignation
+                                            and dislike men who are there beguiled pleasure of the moment.
+                                        </p>
+                                        <div class="about-sign mt-4">
+                                            <p class="mb-0 fst-italic">Joseph Allen</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end about box -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- end col -->
+
+                <div class="col-xl-6">
+                    <div class="position-relative">
+                        <img src="images/about.png" class="img-fluid" alt="error">
+                    </div>
+                    <div class="about-label bg-primary">
+                        <h6 class="text-uppercase text-white-50 mb-1">Explore</h6>
+                        <a href="#" class="text-white fs-6">More About us<i
+                                class="fa fa-long-arrow-right text-white ms-3"></i></a>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container-fluid -->
+    </section>
+
+    <section class="section py-5">
+        <div class="container">
+            <div class="row align-items-center mt-5">
+                <div class="col-lg-7">
+                    <div class="about-image">
+                        <img src="images/about-2.png" class="img-fluid rounded" alt="">
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-5">
+                    <div class="about-box">
+
+                        <h2 class="mt-4 fw-bold display-6">Operator Assisted Calls</h2>
+                        <p class="about-caption text-muted lh-lg mt-4">Our operator is simply dummy text of the printing
+                            and nemo<span class="text-secondary"> voluptatem voluptas aspernature consequuntur classic
+                                used ratione dolores typesetting industry. Lorem been that critilly</span> industrys
+                            standard dummy text ever since 1500s when leaps unknown printer survived centuries leap's to
+                            electronic that typeseting remaining essentiay unchanged.</p>
+                        <button class="btn btn-primary py-3 px-5 mt-4">Learn More</button>
+                    </div>
+                    <!-- end aboutbox -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </section>
+
+
+
+    <section id="services" class="section bg-about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-4">
+                    <div class="pe-2 mt-4">
+                        <h2 class=" fw-bold display-5">20+ Years</h2>
+                        <p class="sub-title text-uppercase">of experiences</p>
+                        <p class="text-muted mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque ltium totam rems aperiam eaqued quaies inventore veritatis et quasi
+                            architecto beatae nesciunt vitaedicta same saying through shrinking.</p>
+                        <a href="#" class="btn btn-primary text-uppercase mt-4">Read More</a>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-xl-8">
+                    <div class="ps-xl-5">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="about-box mt-4">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="about-img mt-4" style="background-image:url(images/img-1.png);">
+                                            </div>
+                                        </div>
+                                        <!-- end col -->
+                                        <div class="col-md-8">
+                                            <h5 class="fs-6 mt-4 text-uppercase">Constructoion</h5>
+                                            <p class="text-muted mt-3">There variatis passages of lorem available,
+                                                the
+                                                majority suffered alteration totam rem.</p>
+                                            <a href="#" class="text-dark">read more</a>
+                                        </div>
+                                        <!-- end col -->
+                                    </div>
+                                    <!-- end row -->
+                                </div>
+                                <!-- end about-box -->
+                                <div class="about-box mt-4">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="about-img mt-4" style="background-image:url(images/img-2.png);">
+                                            </div>
+                                        </div>
+                                        <!-- end col -->
+                                        <div class="col-md-8">
+                                            <h5 class="text-uppercase mt-4 fs-6 ">Painting</h5>
+                                            <p class="text-muted mt-3">There variatis passages of lorem available,
+                                                the
+                                                majority suffered alteration totam rem.</p>
+                                            <a href="#" class="text-dark">read more</a>
+                                        </div>
+                                        <!-- end col -->
+                                    </div>
+                                    <!-- end row -->
+                                </div>
+                                <!-- end about-box -->
+                            </div>
+                            <!-- end col -->
+                            <div class="col-md-6">
+                                <div class="about-box mt-4">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="about-img mt-4" style="background-image:url(images/img-3.png);">
+                                            </div>
+                                        </div>
+                                        <!-- end col -->
+                                        <div class="col-md-8">
+                                            <h5 class="text-uppercase mt-4 fs-6 ">Interior design</h5>
+                                            <p class="text-muted mt-3">There variatis passages of lorem available,
+                                                the
+                                                majority suffered alteration totam rem.</p>
+                                            <a href="#" class="text-dark">read more</a>
+                                        </div>
+                                        <!-- end col -->
+                                    </div>
+                                    <!-- end row -->
+                                </div>
+                                <!-- end about-box -->
+                                <div class="about-box mt-4">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="about-img mt-4" style="background-image:url(images/img-4.png);">
+                                            </div>
+                                        </div>
+                                        <!-- end col -->
+                                        <div class="col-md-8 mt-4">
+                                            <h5 class="text-uppercase fs-6 ">Constructoion</h5>
+                                            <p class="text-muted mt-3">There variatis passages of lorem available,
+                                                the
+                                                majority suffered alteration totam rem.</p>
+                                            <a href="#" class="text-dark">read more</a>
+                                        </div>
+                                        <!-- end col -->
+                                    </div>
+                                    <!-- end row -->
+                                </div>
+                                <!-- end about-box -->
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row-->
+        </div>
+        <!-- end container -->
+    </section>
+
+    <!--start widget-->
+    <section id="testimonials" class="bg-widget d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold text-capitalize mb-3">what they says about <span
+                            class="highlight-primary">our service</span></h1>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="widget-slider my-5">
+                        <div>
+                            <div class="client-box card">
+                                <div class="client-content card-body p-0">
+                                    <div class="quote-img">
+                                        <img src="images/quote.png" alt="quote" class="img-fluid">
+                                    </div>
+                                    <p class="text-dark mb-0 fs-5 lh-base">Praesent tincidunt suscipit lacus vel dictum.
+                                        Praesent nisl viverra sit amet sem sed porta. Quisque ac purus ipsum. Sed
+                                        facilisis sed egestas dolor.</p>
+                                </div>
+                                <!--end client-content-->
+                                <div class="d-flex align-items-center mt-4 pt-3">
+                                    <img src="images/img-1.jpg" alt="" height="55" width="55" class="rounded-circle">
+                                    <div class="ms-2">
+                                        <h5 class="mb-0">Bradley Glover</h5>
+                                        <p class="text-muted mb-0">Creative Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end client-box-->
+                        </div>
+                        <div>
+                            <div class="client-box card">
+                                <div class="client-content card-body p-0">
+                                    <div class="quote-img">
+                                        <img src="images/quote.png" alt="quote" class="img-fluid">
+                                    </div>
+                                    <p class="text-dark mb-0 fs-5 lh-base">Praesent tincidunt suscipit lacus vel dictum.
+                                        Praesent nisl viverra sit amet sem sed porta. Quisque ac purus ipsum. Sed
+                                        facilisis sed egestas dolor.</p>
+                                </div>
+                                <!--end client-content-->
+                                <div class="d-flex align-items-center mt-4 pt-3">
+                                    <img src="images/img-2.jpg" alt="" height="55" width="55" class="rounded-circle">
+                                    <div class="ms-2">
+                                        <h5 class="mb-0">Elizabeth Hobbs</h5>
+                                        <p class="text-muted mb-0">Web Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end client-box-->
+                        </div>
+                        <div>
+                            <div class="client-box card">
+                                <div class="client-content card-body p-0">
+                                    <div class="quote-img">
+                                        <img src="images/quote.png" alt="quote" class="img-fluid">
+                                    </div>
+                                    <p class="text-dark mb-0 fs-5 lh-base">Praesent tincidunt suscipit lacus vel dictum.
+                                        Praesent nisl viverra sit amet sem sed porta. Quisque ac purus ipsum. Sed
+                                        facilisis sed egestas dolor.</p>
+                                </div>
+                                <!--end client-content-->
+                                <div class="d-flex align-items-center mt-4 pt-3">
+                                    <img src="images/img-3.jpg" alt="" height="55" width="55" class="rounded-circle">
+                                    <div class="ms-2">
+                                        <h5 class="mb-0">Robert O'Neill</h5>
+                                        <p class="text-muted mb-0">CEO & Founder</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end client-box-->
+                        </div>
+                        <div>
+                            <div class="client-box card">
+                                <div class="client-content card-body p-0">
+                                    <div class="quote-img">
+                                        <img src="images/quote.png" alt="quote" class="img-fluid">
+                                    </div>
+                                    <p class="text-dark mb-0 fs-5 lh-base">Praesent tincidunt suscipit lacus vel dictum.
+                                        Praesent nisl viverra sit amet sem sed porta. Quisque ac purus ipsum. Sed
+                                        facilisis sed egestas dolor.</p>
+                                </div>
+                                <!--end client-content-->
+                                <div class="d-flex align-items-center mt-4 pt-3">
+                                    <img src="images/img-4.jpg" alt="" height="55" width="55" class="rounded-circle">
+                                    <div class="ms-2">
+                                        <h5 class="mb-0">Connor Storey</h5>
+                                        <p class="text-muted mb-0">Art & Creative Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end client-box-->
+                        </div>
+                    </div>
+                    <!--end widget-slider-->
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+    </section>
+    <!--end widget-->
+
+
+    <section id="blog" class="section bg-light pt-5">
+        <div class="container pb-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="text-center">
+                        <h2 class="mb-4 fw-bold display-5">Latest Blog</h2>
+                        <p class="text-center text-muted mb-5 pb-5">
+                            Fusce commondo tincidunt convallis. Nunc at
+                            purus vitae nisl sagittis ut sit amet diam.
+                            you curabitur sed tincidunt iacus. Fusce
+                            volutpat eget leo ac eleifend
+                        </p>
+                    </div>
+                </div><!--col end-->
+
+
+            </div><!--row end-->
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-5">
+                            <img src="images/Business-Blog-Image-1.webp" alt="..." class="img-fluid" class="mb-4">
+                        </div>
+                        <div class="col-lg-6">
+                            <h3 class="pt-3 pt-lg-0">Great kemne neat app ui design</h3>
+                            <p class="mt-3 pb-5">we persent you a modern and simple design, with unique elements,using
+                                the star color of from architecture uoi website.</p>
+
+                        </div>
+                    </div>
+                </div><!--col end 1-->
+
+                <div class="col-lg-6">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-5">
+                            <img src="images/Business-Blog-Image-2.webp" alt="..." class="img-fluid">
+                        </div>
+                        <div class="col-lg-5">
+                            <h3 class="pt-3 pt-lg-0">Great kemne neat app ui design</h3>
+                            <p class="mt-3 pb-5">we persent you a modern and
+                                simple design, with unique elements,using
+                                the star color
+                                of from architecture uoi website.</p>
+
+                        </div>
+                    </div>
+
+                </div><!--col end 1-->
+
+
+                <div class="col-lg-6">
+                    <div class="row justify-content-center ">
+                        <div class="col-lg-5">
+                            <img src="images/Business-Blog-Image-3.webp" alt="..." class="img-fluid">
+                        </div>
+                        <div class="col-lg-6">
+
+                            <h3 class="pt-3 pt-lg-0">Great kemne neat app ui design</h3>
+                            <p class="mt-3 pb-5">we persent you a modern and
+                                simple design, with unique elements,using
+                                the star color
+                                of from architecture uoi website.</p>
+
+                        </div>
+                    </div>
+
+                </div><!--col end 1-->
+
+                <div class="col-lg-6">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-5">
+                            <img src="images/Business-Blog-Image-3.webp" alt="..." class="img-fluid">
+                        </div>
+                        <div class="col-lg-5">
+
+                            <h3 class="pt-3 pt-lg-0">Great kemne neat app ui design</h3>
+                            <p class="mt-3 pb-5">we persent you a modern and
+                                simple design, with unique elements,using
+                                the star color
+                                of from architecture uoi website.</p>
+
+                        </div>
+                    </div>
+                </div><!--col end 1-->
+            </div><!--row end-->
+
+        </div>
+    </section>
+
+    <div id="contact" class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-12 text-center">
+                <img src="images/img.png" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-12  text-left">
+                <h2 class="display-5 fw-bold mt-5">Your Business Potential with Our Proven Strategies</h2>
+                <p class="lead mt-4 mb-5">
+                    Contact us today to schedule a consultation and start your journey towards success. </p>
+                <div class="">
+                    <a href="#" class="btn btn-primary text-uppercase mb-5 mb-lg-0">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="bg-overlay"></div>
+        <div class="container">
+
+            <div class="row mt-5 pt-5">
+                <div class="col-lg-2 col-md-4">
+                    <div class="mt-5">
+                        <h5 class="footer-title text-uppercase fw-bold">Company</h5>
+                        <div class="mt-4">
+                            <ul class="list-unstyled footer-list">
+                                <li class=""><a href="#">About</a></li>
+                                <li class=""><a href="#">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-3 col-md-4">
+                    <div class="mt-5">
+                        <h5 class="footer-title text-uppercase fw-bold">Invest</h5>
+                        <div class="mt-4">
+                            <ul class="list-unstyled footer-list">
+                                <li class=""><a href="#">View Investments</a></li>
+                                <li class=""><a href="#">How it works For Investors</a></li>
+                                <li class=""><a href="#">Investors FAQs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-3 col-md-4">
+                    <div class="mt-5">
+                        <h5 class="footer-title text-uppercase fw-bold">BORROW</h5>
+                        <div class="mt-4">
+                            <ul class="list-unstyled footer-list">
+                                <li class=""><a href="#">Apply for Funding</a></li>
+                                <li class=""><a href="#">How works for Borrowers</a></li>
+                                <li class=""><a href="#">Lending Parameters</a></li>
+                                <li class=""><a href="#">Borrower FAQs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="mt-5 mt-md-4">
+                        <h5 class="footer-title text-uppercase fw-bold">Newsletter</h5>
+                        <div class="sub-form mt-5">
+                            <form action="#">
+                                <input type="text" class="rounded-pill form-control shadow-sm"
+                                    placeholder="Email Address">
+                                <i class="mdi mdi-arrow-right text-primary h5"></i>
+                            </form>
+                        </div>
+                        <h5 class="footer-title text-uppercase mt-5 fw-bold">Stay in touch</h5>
+                        <ul class="list-inline mt-4">
+                            <li class="list-inline-item"><a href="#"><i
+                                        class="mdi mdi-facebook  footer-social-icon"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i
+                                        class="mdi mdi-twitter  footer-social-icon"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i
+                                        class="mdi mdi-apple  footer-social-icon"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+            <hr>
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-md-flex align-items-center py-4 my-2">
+                        <div class="flex-md-grow-1">
+                            <h6 class="text-white-50 fs-5 mb-0"><i class="mdi mdi-city fs-5 me-2"></i>Company Name</h6>
+                        </div>
+                        <div class="mt-md-0 mt-4">
+                            <h6 class="text-white-50 mb-0">© 2023 Your Company Name. All Rights Reserved</h6>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end -->
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <!--Tiny Slider JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.min.js"
+        integrity="sha512-eFH1e5TOppR2v/FrKk5FT/W9IHX25gKlrlTjIAuuG3pdDTMi3s8nR5PftWQ31fMpaF7P6NmlQXJjBwORWMLRLQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
